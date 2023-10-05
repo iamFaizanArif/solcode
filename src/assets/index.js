@@ -14,5 +14,6 @@ import p5 from "./img/p5.jpg"
 import p6 from "./img/p6.jpg"
 import p7 from "./img/p7.jpg"
 import p8 from "./img/p8.jpg"
+import aboutBanner2 from "./img/about-baner-2.jpg"
 
-export {logo,logo2,hero,service1,service2,service3,contactUsHero,contactUs,p1,p2,p3,p4,p5,p6,p7,p8};
+export {logo,logo2,hero,service1,service2,service3,contactUsHero,contactUs,p1,p2,p3,p4,p5,p6,p7,p8,aboutBanner2};

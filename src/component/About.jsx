@@ -1,7 +1,7 @@
 import React from 'react';
 import {AnimationOnScroll} from "react-animation-on-scroll";
 
-const AboutUs = () => {
+const About = () => {
     return (
         <AnimationOnScroll animateIn="animate__fadeInLeft">
         <section className=" body-font text-center">
@@ -24,4 +24,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default About;
