@@ -2,6 +2,7 @@
 import React from 'react';
 import {hero} from "../assets/index.js";
 import Button from "./Button.jsx";
+import {Link} from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -9,7 +10,7 @@ const Hero = () => {
             <div className={`pattern w-1/3 h-1/3 rounded-es-full absolute right-0 animate-pulse animate-fade-down`}></div>
             <div className={`pattern w-1/3 h-1/5 rounded-se-full absolute bottom-0 left-0 animate-pulse animate-fade-up`}></div>
             <section
-                className="flex justify-center items-center bg-[#191A1C] text-white body-font text-center h-screen">
+                className="flex justify-center items-center bg-[#191A1C] text-white body-font text-center h-[90vh]">
                 <div
                     className="relative z-10 container mx-auto flex px-5 md:flex-row flex-col justify-center items-center text-primary">
                     <div
@@ -23,9 +24,9 @@ const Hero = () => {
                             online presence through a range of specialized services that cater to all your digital
                             needs. With a team of skilled professionals and a passion for innovation, we offer a suite
                             of services designed to help your business thrive in the digital landscape</p>
-                        <div className="mt-12 flex justify-center space-x-4">
-                            <Button title={`About Us`} style={`bg-secondary`}/>
-                            <Button title={`See Projects`} style={`bg-secondary`}/>
+                        <div className="mt-6 flex justify-center space-x-4">
+                            <Link to={`/about-us`}> <Button title={`About Us`} style={`bg-secondary`}/></Link>
+                            <Link to={`/projects`}><Button title={`See Projects`} style={`bg-secondary`}/></Link>
                         </div>
                     </div>
                     <div className="2xl:max-w-xl lg:max-w-lg lg:w-full md:w-1/2 w-5/6 overflow-hidden animate-fade-left animate-delay-1000">

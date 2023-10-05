@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 const Navbar = () => {
 
     return (
-        <header className="bg-basic text-white body-font drop-shadow-lg w-full z-50">
+        <header className="bg-basic text-white body-font drop-shadow-lg w-full">
             <div className="container mx-auto flex flex-wrap px-5 flex-col md:flex-row items-left md:items-center">
 
                 <Link to={`/`} className={`contents`}>
