@@ -24,8 +24,8 @@ const Hero = () => {
                             needs. With a team of skilled professionals and a passion for innovation, we offer a suite
                             of services designed to help your business thrive in the digital landscape</p>
                         <div className="mt-12 flex justify-center space-x-4">
-                            <Button title={`About Us`}/>
-                            <Button title={`See Projects`}/>
+                            <Button title={`About Us`} style={`bg-secondary`}/>
+                            <Button title={`See Projects`} style={`bg-secondary`}/>
                         </div>
                     </div>
                     <div className="2xl:max-w-xl lg:max-w-lg lg:w-full md:w-1/2 w-5/6 overflow-hidden animate-fade-left animate-delay-1000">
