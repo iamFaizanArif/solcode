@@ -1,22 +1,19 @@
 import React from 'react';
-import {contactUsHero} from "../assets/index.js";
+import {CiCircleMore} from "react-icons/ci";
 
-const Card = ({style,image,title}) => {
+const Card = ({style, image, title, domain,link}) => {
     return (
         <div style={{'--image-url': `url(${image})`}}
-                  className={`relative bg-[image:var(--image-url)] h-[480px] max-w-sm bg-white/5 opacity-90 rounded-lg overflow-clip ${style}`}>
-            {/*<div*/}
-            {/*    className={`absolute bottom-10 blur-3xl opacity-80 bg-gradient-to-r from-[#FF5733] via-[#FFFF00] to-[#FFA500] p-12 rounded-lg ${style}`}>*/}
-            {/*</div>*/}
-                {/*<img className="w-1/2 h-1/2 object-cover" src={image} alt="project-images" loading="lazy"/>*/}
-                <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">
-                        {title}
-                    </h5>
-                    <p className="mb-3 font-normal text-green-500">
-                        Open 24 hours*
-                    </p>
+             className={`flex flex-col bg-[image:var(--image-url)] bg-no-repeat bg-center bg-cover rounded-lg h-[350px] max-w-sm  ${style}`}
+        >
+            <div className="flex flex-col items-start justify-start p-5 bg-basic mx-3 rounded-xl mb-5 mt-auto group">
+                <p className="mb-3 text-gray-100 underline decoration-secondary underline-offset-8">{domain}</p>
+                <h5 className="mb-2 text-3xl font-bold text-gray-100">{title}</h5>
+                <div className={`hidden group-hover:flex justify-end items-end ml-auto group-hover:animate-fade-down animate-fade-up text-gray-100 cursor-pointer`}>
+                    <a href={link} className="flex items-center justify-center group-hover:animate-fade-down animate-fade-up "> <CiCircleMore size={20} className={`hover:text-secondary`}/>  <span className={`ml-1 hover:text-secondary`}>Read More</span></a>
                 </div>
+
+            </div>
         </div>
     );
 };

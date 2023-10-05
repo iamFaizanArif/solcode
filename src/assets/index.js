@@ -6,5 +6,6 @@ import service2 from "./img/service2.png"
 import service3 from "./img/service3.png"
 import contactUsHero from "./img/contactUsHero.jpg"
 import contactUs from "./img/contactUs.png"
+import p1 from "./img/p1.jpg"
 
-export {logo,logo2,hero,service1,service2,service3,contactUsHero,contactUs};
+export {logo,logo2,hero,service1,service2,service3,contactUsHero,contactUs,p1};
