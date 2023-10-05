@@ -13,7 +13,7 @@ const Navbar = () => {
 
                 <Link to={`/`} className={`contents`}>
                     <img src={logo} alt={`logo`} className={`w-1/5 md:w-[6%] inline`}/>
-                    <img src={logo2} alt={`logo`} className={`w-[10%] hidden md:inline`}/>
+                    <img src={logo2} alt={`logo`} className={`w-[12%] hidden md:inline`}/>
                 </Link>
 
                 <nav

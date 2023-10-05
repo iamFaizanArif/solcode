@@ -1,7 +1,6 @@
 import React from 'react';
 import Breadcrumb from "../component/Breadcrumb.jsx";
-import Button from "../component/Button.jsx";
-import {p1, p2, p3, p4, p5, p6, p7, p8, service1, service2, service3} from "../assets/index.js";
+import {service1, service2, service3} from "../assets/index.js";
 import Card from "../component/Swiper/Card.jsx";
 
 const Services = () => {

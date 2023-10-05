@@ -2,6 +2,8 @@
 import React from 'react';
 import {TbComet} from "react-icons/tb";
 import {Link} from "react-router-dom";
+import {BsEnvelope} from "react-icons/bs";
+import {logo, logo2} from "../assets/index.js";
 const Footer = () => {
     return (
         <footer className="bg-[#191A1C] text-white body-font">
@@ -9,8 +11,11 @@ const Footer = () => {
                 className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                        <TbComet size={33}/>
-                        <span className="ml-3 text-xl">Solecodes</span>
+                        {/*<TbComet size={33}/>*/}
+                        <img src={logo} alt={`logo`} className={`w-[30%]`}/>
+                        <img src={logo2} alt={`logo`} className={`w-[60%]`}/>
+
+                        {/*<span className="ml-3 text-xl">Solecodes</span>*/}
                     </a>
                     <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
                 </div>
@@ -43,34 +48,34 @@ const Footer = () => {
                                 <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Home</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">About Us</Link>
+                                <Link to={`/about-us`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">About Us</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Services</Link>
+                                <Link to={`/services`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Services</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Projects</Link>
+                                <Link to={`/projects`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Projects</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Contact Us</Link>
+                                <Link to={`/contact-us`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Contact Us</Link>
                             </li>
                         </nav>
                     </div>
                     <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CONTACT</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a className="text-gray-400 hover:text-white">First Link</a>
+                                <a href="mailto:contactsolcodes@gmail.com" className="text-gray-400 hover:text-white flex items-center"> <BsEnvelope className={`text-secondary`} size={24}/> <span className={`ml-1`}>contactsolcodes@gmail.com</span> </a>
                             </li>
-                            <li>
-                                <a className="text-gray-400 hover:text-white">Second Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-400 hover:text-white">Third Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-400 hover:text-white">Fourth Link</a>
-                            </li>
+                            {/*<li>*/}
+                            {/*    <a className="text-gray-400 hover:text-white">Second Link</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*    <a className="text-gray-400 hover:text-white">Third Link</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*    <a className="text-gray-400 hover:text-white">Fourth Link</a>*/}
+                            {/*</li>*/}
                         </nav>
                     </div>
                 </div>
@@ -79,8 +84,9 @@ const Footer = () => {
             <div className="bg-[#191A1C] bg-opacity-75">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                     <p className="text-gray-400 text-sm text-center sm:text-left">© 2023 Solecodes —
-                        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-500 ml-1"
-                           target="_blank">solecodes@gmail.com</a>
+                        <a  href = "mailto:contactsolcodes@gmail.com" rel="noopener noreferrer" className="text-gray-500 ml-1"
+                           target="_blank">contactsolcodes@gmail.com
+                        </a>
                     </p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <a className="text-gray-400">
