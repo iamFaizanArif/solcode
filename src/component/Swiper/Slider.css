@@ -1,20 +1,20 @@
 .swiper-button-prev{
-    color: black;
-    border-radius: 93px;
-    border: 2px solid black;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: left;
-    align-items: self-start;
+    color: #18893E;
+    /*border-radius: 93px;*/
+    /*border: 2px solid black;*/
+    /*height: 50px;*/
+    /*width: 50px;*/
+    /*display: flex;*/
+    /*justify-content: left;*/
+    /*align-items: self-start;*/
 }
 .swiper-button-next{
-    color: black;
-    border-radius: 93px;
-    border: 2px solid black;
-    height: 65px;
-    width: 65px;
-    display: flex;
-    justify-content: right;
-    align-items: self-end;
+    color: #18893E;
+    /*border-radius: 93px;*/
+    /*border: 2px solid black;*/
+    /*height: 65px;*/
+    /*width: 65px;*/
+    /*display: flex;*/
+    /*justify-content: right;*/
+    /*align-items: self-end;*/
 }

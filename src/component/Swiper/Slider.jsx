@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 import React from "react";
-// import "./Slider.css"
+import "./Slider.css"
 // import './Customers.css'
 // import Features from "./Components/Features/Features.jsx";
 import SwiperCore from 'swiper';
@@ -95,7 +95,7 @@ const Slider = () => {
                                     <Card title="On-Page SEO"
                                           desc="Stand out from the digital crowd with our expert on-page SEO services. We optimize your website to enhance its visibility on search engines, driving organic traffic and increasing your online reach. Our strategies are tailored to your industry, ensuring your content ranks high and connects with your target audience"
                                           img={service1}
-                                          style={`px-2`}
+                                          style={`px-4`}
                                           imgStyle={`ml-0`}
                                     />
 
@@ -106,7 +106,7 @@ const Slider = () => {
                                     <Card title="WordPress"
                                           desc="Your website is often the first interaction customers have with your brand. Our WordPress experts create visually stunning and highly functional websites that leave a lasting impression. From responsive designs to seamless navigation, we craft websites that reflect your brand's uniqueness"
                                           img={service2}
-                                          style={`px-2`}
+                                          style={`px-4`}
                                           imgStyle={`ml-0`}
                                     />
 
@@ -117,7 +117,7 @@ const Slider = () => {
                                     <Card title="MERN Stack"
                                           desc="Experience the power of modern web development with our MERN stack expertise. Whether it's a dynamic web application or an interactive platform, our skilled developers leverage MongoDB, Express, React, and Node.js to create robust and scalable solutions that align with your business goals"
                                           img={service3}
-                                          style={`px-2`}
+                                          style={`px-4`}
                                           imgStyle={`ml-0`}
                                     />
 
@@ -128,7 +128,7 @@ const Slider = () => {
                                     <Card title="UI/UX Design"
                                           desc="A stunning user interface and seamless user experience are pivotal for your digital success. Our UI/UX designers craft visually appealing interfaces that prioritize user interactions. We believe in creating designs that not only captivate but also enhance user engagement, making your digital platforms a joy to use"
                                           img={service2}
-                                          style={`px-2`}
+                                          style={`px-4`}
                                           imgStyle={`ml-0`}
                                     />
 
@@ -139,7 +139,7 @@ const Slider = () => {
                                     <Card title="Mobile Application"
                                           desc="The world is at your customers' fingertips, and we help you reach them with our mobile app development services. Our talented team designs and develops apps for both Android and iOS platforms, ensuring your brand is accessible to users wherever they go"
                                           img={service3}
-                                          style={`px-2`}
+                                          style={`px-4`}
                                           imgStyle={`ml-0`}
                                     />
 
@@ -152,7 +152,7 @@ const Slider = () => {
                                     <Card title="On-Page SEO"
                                           desc="Stand out from the digital crowd with our expert on-page SEO services. We optimize your website to enhance its visibility on search engines, driving organic traffic and increasing your online reach. Our strategies are tailored to your industry, ensuring your content ranks high and connects with your target audience"
                                           img={service1}
-                                          style={`px-2`}
+                                          style={`px-4`}
                                           imgStyle={`ml-0`}
                                     />
                                 </div>

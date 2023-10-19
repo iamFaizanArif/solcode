@@ -10,7 +10,7 @@ const Hero = () => {
             <div className={`pattern w-1/3 h-1/3 rounded-es-full absolute right-0 animate-pulse animate-fade-down`}></div>
             <div className={`pattern w-1/3 h-1/5 rounded-se-full absolute bottom-0 left-0 animate-pulse animate-fade-up`}></div>
             <section
-                className="flex justify-center items-center bg-[#191A1C] text-white body-font text-center h-[90vh]">
+                className="flex justify-center items-center bg-[#191A1C] text-white body-font text-center h-screen">
                 <div
                     className="relative z-10 container mx-auto flex px-5 md:flex-row flex-col justify-center items-center text-primary">
                     <div

@@ -3,16 +3,21 @@ import Breadcrumb from "../component/Breadcrumb.jsx";
 import {service1, service2, service3} from "../assets/index.js";
 import Card from "../component/Swiper/Card.jsx";
 
+import {motion} from "framer-motion";
+
 const Services = () => {
     return (
-        <section className={``}>
+        <motion.div initial={{width:0}}
+                    animate={{width:"100%"}}
+                    exit={{x:window.innerWidth}}
+                    transition={{duration:0.5,ease:[0.22,1,0.36,1]}} className={``}>
             {/*pt-[74px]  md:pt-0*/}
             <Breadcrumb title={'Services'} from={"/"} to={"/services"}/>
-            <div className="container px-5 py-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
+            <div className="container px-5 py-24 mt-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
                 <div className="flex flex-col text-center w-full mb-20">
                     <p className={`text-secondary underline text-lg font-semibold mb-2 leading-loose tracking-wide`}>Our Solutions</p>
                     <h1 className="text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl font-bold title-font text-gray-900 mb-4">Services</h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
+                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Welcome to Solcodes, your trusted destination for expert software solutions. Our dedicated team specializes in crafting dynamic and innovative software products to cater to a wide range of needs.</p>
                     <div className={`py-12`}>
                        <div className={`text-left grid grid-cols-1 md:grid-cols-3 gap-6 mt-12`}>
                             <Card title="On-Page SEO"
@@ -39,7 +44,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </motion.div>
     );
 };
 

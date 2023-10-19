@@ -4,6 +4,7 @@ import Button from "../component/Button.jsx";
 import Card from "../component/Card.jsx";
 import {p1, p2, p3, p4, p5, p6, p7, p8} from "../assets/index.js";
 
+import {motion} from "framer-motion";
 
 const Projects = () => {
     const [all, setAll] = useState(true);
@@ -61,17 +62,18 @@ const Projects = () => {
         setUiUx(true);
     }
     return (
-        <section className={``}>
+        <motion.div  initial={{width:0}}
+                     animate={{width:"100%"}}
+                     exit={{x:window.innerWidth}}
+                     transition={{duration:0.5,ease:[0.22,1,0.36,1]}}  className={``}>
             {/*pt-[74px]  md:pt-0*/}
             <Breadcrumb title={'Projects'} from={"/"} to={"/projects"}/>
-            <div className="container px-5 py-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
+            <div className="container px-5 py-24 mt-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
                 <div className="flex flex-col text-center w-full mb-20">
                     <p className={`text-secondary underline text-lg font-semibold mb-2 leading-loose tracking-wide`}>Case
                         Study</p>
                     <h1 className="text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl font-bold title-font text-gray-900 mb-4">Projects</h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle
-                        crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine,
-                        ramps microdosing banh mi pug.</p>
+                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Discover our diverse portfolio of successful projects spanning various domains. At Solcodes, we take pride in our ability to deliver innovative and impactful solutions to our clients. </p>
                     <div className={`py-12`}>
                         <Button onClick={All} title={"All"}
                                 style={"bg-basic mt-4 mr-4 hover:bg-secondary hover:shadow-lg hover:shadow-secondary/50"}/>
@@ -165,7 +167,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </motion.div>
     );
 };
 

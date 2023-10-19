@@ -65,7 +65,7 @@ const Footer = () => {
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CONTACT</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a href="mailto:contactsolcodes@gmail.com" className="text-gray-400 hover:text-white flex items-center"> <BsEnvelope className={`text-secondary`} size={24}/> <span className={`ml-1`}>contactsolcodes@gmail.com</span> </a>
+                                <a href="mailto:contactsolcodes@gmail.com" className="text-gray-400 hover:text-white flex items-center justify-center md:justify-normal"> <BsEnvelope className={`text-secondary`} size={24}/> <span className={`ml-1`}>contactsolcodes@gmail.com</span> </a>
                             </li>
                             {/*<li>*/}
                             {/*    <a className="text-gray-400 hover:text-white">Second Link</a>*/}

@@ -75,7 +75,7 @@ const Form = () => {
                 draggable
                 pauseOnHover
             />
-            <div className={`container mx-auto p-5 py-28`}>
+            <div className={`container mx-auto p-5 py-28 mt-24`}>
                 <div className={`flex flex-wrap md:flex-nowrap items-center space-x-0 md:space-x-40`}>
                     <span>
                         <p className={`text-secondary underline text-lg font-semibold mb-2 leading-loose tracking-wide`}>Get In Touch</p>

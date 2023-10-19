@@ -3,13 +3,19 @@ import Breadcrumb from "../component/Breadcrumb.jsx";
 import {AnimationOnScroll} from "react-animation-on-scroll";
 import About from "../component/About.jsx";
 import {aboutBanner2} from "../assets/index.js";
+import {motion} from "framer-motion";
 
 const AboutUs = () => {
     return (
-        <section className={``}>
+        <motion.div initial={{width:0}}
+                    animate={{width:"100%"}}
+                    exit={{x:window.innerWidth}}
+                    transition={{duration:0.5,ease:[0.22,1,0.36,1]}}
+                    // className={`slide-in`}
+        >
             {/*pt-[74px]  md:pt-0*/}
             <Breadcrumb title={'About Us'} from={"/"} to={"/about-us"}/>
-            <div className="container py-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
+            <div className="container py-24 mt-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
                 <AnimationOnScroll animateIn="animate__fadeInRight">
                     <section className=" body-font text-center">
                         <div className="container mx-auto flex px-5 pb-32 md:flex-row flex-col items-center">
@@ -37,12 +43,7 @@ const AboutUs = () => {
                                         <p className={`text-lg my-4 mb-6`}>Expert Teams</p>
                                     </div>
                                 </div>
-                                <p className="mb-8 leading-relaxed">Integer purus odio, placerat nec rhoncus in,
-                                    ullamcorper nec dolor. Class onlin aptent taciti sociosqu ad litora torquent per
-                                    conubia nostra, per inceptos only himenaeos. Praesent nec neque at dolor venenatis
-                                    consectetur eu quis ex. the Donec lacinia placerat felis non aliquam.Mauris nec
-                                    justo vitae ante auctor tol euismod sit amet non ipsum. Praesent commodo at massa
-                                    eget suscipit. Utani vitae enim velit. Ut ut posuere orci, id dapibus odio.</p>
+                                <p className="mb-8 leading-relaxed">At Solcodes, we stand out as your dedicated software partners. Our wide-ranging expertise covers everything from mobile app development to web solutions, ensuring your project's success no matter the complexity. We're all about our clients, with a commitment to strong client relationships and tailored solutions. Innovation drives us, and we stay on the cutting edge of technology to bring the latest advancements to your project. Our focus on creating exceptional user experiences and providing custom software solutions ensures that your software not only functions but captivates. Our vision is to lead the way in transformative software solutions, pushing boundaries and shaping the digital future. We're motivated by a simple mission - to turn your software ideas into impactful reality. When you choose Solcodes, you choose innovation, dedication, and a partner in your digital success.</p>
                             </div>
 
                         </div>
@@ -50,7 +51,7 @@ const AboutUs = () => {
                 </AnimationOnScroll>
                 <About/>
             </div>
-        </section>
+        </motion.div>
     );
 };
 

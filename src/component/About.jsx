@@ -12,7 +12,7 @@ const About = () => {
                     <h1 className="title-font sm:text-4xl text-xl mb-4 font-medium">
                         We Do Design, Code & Develop Software Finally Launch.
                     </h1>
-                    <p className="mb-8 leading-relaxed">Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Class onlin aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only himenaeos. Praesent nec neque at dolor venenatis consectetur eu quis ex. the Donec lacinia placerat felis non aliquam.</p>
+                    <p className="mb-8 leading-relaxed">At Solcodes, we are your dedicated partners in innovative software solutions. Our unwavering focus is on creating exceptional software that empowers your vision. With a client-centric approach, we forge strong relationships, listen intently, and collaborate closely to achieve your goals. Our mastery of diverse technologies, from iOS and Android app development to MERN-based web solutions, ensures that your software isn't just functional, but truly outstanding. Our vision is to lead the way in transformative software, pushing boundaries and shaping the digital future. Our motive is simple - to turn your software ideas into impactful reality. Join us at Solcodes and embark on your software journey today.</p>
                 </div>
                 <div className="2xl:max-w-xl lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img className="object-cover object-center rounded w-full h-auto" alt="hero"
