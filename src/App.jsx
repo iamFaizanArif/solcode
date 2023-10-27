@@ -16,12 +16,12 @@ import WordPress from "./pages/WordPress.jsx";
 import MERN from "./pages/MERN.jsx";
 import MobileApp from "./pages/MobileApp.jsx";
 import UIUX from "./pages/UIUX.jsx";
+import ContactUs from "./pages/ContactUs.jsx";
+import Services from "./pages/Services.jsx";
+import AboutUs from "./pages/AboutUs.jsx";
+import Projects from "./pages/Projects.jsx";
 
 const App = () => {
-    const AboutUs = lazy(() => import('./pages/AboutUs.jsx'));
-    const ContactUs = lazy(() => import('./pages/ContactUs.jsx'));
-    const Services = lazy(() => import('./pages/Services.jsx'));
-    const Projects = lazy(() => import('./pages/Projects.jsx'));
     const location=useLocation();
     return (
 

@@ -40,7 +40,7 @@ const Navbar = () => {
                 </Link>
 
                 <nav className={`ml-auto flex z-50`}>
-                    <ul className="hidden md:ml-auto md:flex md:flex-wrap items-center text-base 2xl:text-xl justify-center space-x-5 text-primary">
+                    <ul className="hidden md:ml-auto md:flex md:flex-wrap items-center text-base 2xl:text-xl justify-center space-x-5 text-primary py-8">
                         <li><Link to={`/`} className="hover:text-gray-100 cursor-pointer ">Home</Link></li>
                         <li><Link to={`/about-us`} className="hover:text-gray-100 cursor-pointer">About Us</Link></li>
                         <li><Link to={`/services`} className="hover:text-gray-100 cursor-pointer">Services</Link></li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                                 setToggleMenu(true)
                             }}/>}
                         {toggleMenu && (
-                            <ul className='z-10 fixed top-0 -left-0 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none flex flex-col items-center justify-start blue-glassmorphism text-white animate-slide-in transition-all duration-500 ease-in'>
+                            <ul className='z-10 fixed top-0 -left-0 p-3 w-[50vw] h-screen shadow-2xl md:hidden list-none flex flex-col items-center justify-start blue-glassmorphism text-white animate-slide-in transition-all duration-500 ease-in'>
                                 <li className='text-xl w-full my-2 mb-12'>
                                     <AiOutlineClose onClick={() => {
                                         setToggleMenu(false)

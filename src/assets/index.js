@@ -16,6 +16,10 @@ import p5 from "./img/p5.png"
 import p6 from "./img/p6.png"
 import p7 from "./img/p7.png"
 import p8 from "./img/p8.jpg"
+import web from "./img/coding.png"
+import app from "./img/app-development.png"
+import seo from "./img/seo.png"
+import uiux from "./img/ui.png"
 import aboutBanner2 from "./img/about-baner-2.jpg"
 
-export {logo,logo2,hero,service1,service2,service3,contactUsHero,contactUs,p1,p2,p3,p4,p5,p6,p7,p8,aboutBanner2};
+export {logo,logo2,hero,service1,service2,service3,contactUsHero,contactUs,p1,p2,p3,p4,p5,p6,p7,p8,aboutBanner2,web,app,uiux,seo};
