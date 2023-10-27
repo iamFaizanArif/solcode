@@ -21,7 +21,7 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 const Slider = () => {
     return (
         <section className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
+            <div className="container px-5 pt-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
                 <div className="flex flex-col text-center w-full mb-20">
                     <p className={`text-secondary underline text-lg font-semibold mb-2 leading-loose tracking-wide`}>Our
                         Solutions</p>
@@ -66,7 +66,7 @@ const Slider = () => {
                                           img={service2}
                                           link={"/ui-ux"}
                                     />
-                                    <Card title="Mobile Application"
+                                    <Card title="Mobile App"
                                           desc="The world is at your customers' fingertips, and we help you reach them with our mobile app development services. Our talented team designs and develops apps for both Android and iOS platforms, ensuring your brand is accessible to users wherever they go"
                                           img={service3}
                                           link={"/mobile-app"}

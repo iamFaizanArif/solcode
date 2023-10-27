@@ -51,7 +51,7 @@ const Navbar = () => {
                     <div className='relative z-50'>
                         {toggleMenu
                             ?
-                            <AiOutlineClose fontSize={28} className='text-white md:hidden cursor-pointer'
+                            <AiOutlineClose fontSize={0} className='text-white md:hidden cursor-pointer'
                                             onClick={() => {
                                                 setToggleMenu(false)
                                             }}/>
@@ -60,14 +60,14 @@ const Navbar = () => {
                                 setToggleMenu(true)
                             }}/>}
                         {toggleMenu && (
-                            <ul className='z-10 fixed top-0 -right-0 p-3 w-[100vw] h-screen shadow-2xl md:hidden list-none flex flex-col items-center justify-start blue-glassmorphism text-white animate-slide-in transition-all duration-500 ease-in'>
-                                <li className='text-4xl w-full my-2 mb-24'>
+                            <ul className='z-10 fixed top-0 -left-0 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none flex flex-col items-center justify-start blue-glassmorphism text-white animate-slide-in transition-all duration-500 ease-in'>
+                                <li className='text-xl w-full my-2 mb-12'>
                                     <AiOutlineClose onClick={() => {
                                         setToggleMenu(false)
                                     }}/>
                                 </li>
                                 {Links.map((item, index) => (
-                                    <NavbarItem key={item + index} title={item.name} link={item.path} classProps="my-2 text-4xl leading-loose"/>
+                                    <NavbarItem key={item + index} title={item.name} link={item.path} classProps="my-2 text-xl leading-loose"/>
                                 ))}
                             </ul>
                         )}
