@@ -10,12 +10,20 @@ import {GiCometSpark} from 'react-icons/gi';
 import {GiBurningMeteor} from 'react-icons/gi';
 // import logo from '../../images/logo.png';
 
+let Links=[
+    {name:"Home",path:"/"},
+    {name:"About Us",path:"/about-us"},
+    {name:"Projects",path:"/project"},
+    {name:"Services",path:"/services"},
+    {name:"Contact Us",path:"/contact-us"},
+];
+
 // We are going to create new functional component, which accept few props
-const NavbarItem = ({title, classProps}) => {
+const NavbarItem = ({title,link, classProps}) => {
     // It will return a li
     return (
         <li className={`mx-4 cursor-pointer ${classProps}`}>
-            {title}
+            <Link to={link}>{title}</Link>
         </li>
     )
 }
@@ -52,14 +60,14 @@ const Navbar = () => {
                                 setToggleMenu(true)
                             }}/>}
                         {toggleMenu && (
-                            <ul className='z-10 fixed top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in'>
-                                <li className='text-xl w-full my-2'>
+                            <ul className='z-10 fixed top-0 -right-0 p-3 w-[100vw] h-screen shadow-2xl md:hidden list-none flex flex-col items-center justify-start blue-glassmorphism text-white animate-slide-in transition-all duration-500 ease-in'>
+                                <li className='text-4xl w-full my-2 mb-24'>
                                     <AiOutlineClose onClick={() => {
                                         setToggleMenu(false)
                                     }}/>
                                 </li>
-                                {['Home', 'About Us', 'Services', 'Projects', 'Contact Us'].map((item, index) => (
-                                    <NavbarItem key={item + index} title={item} classProps="my-2 text-lg"/>
+                                {Links.map((item, index) => (
+                                    <NavbarItem key={item + index} title={item.name} link={item.path} classProps="my-2 text-4xl leading-loose"/>
                                 ))}
                             </ul>
                         )}

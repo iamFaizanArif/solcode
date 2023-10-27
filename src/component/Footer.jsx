@@ -6,7 +6,7 @@ import {BsEnvelope} from "react-icons/bs";
 import {logo, logo2} from "../assets/index.js";
 const Footer = () => {
     return (
-        <footer className="bg-[#191A1C] text-white body-font">
+        <footer className="bg-basic text-white body-font">
             <div
                 className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -25,19 +25,19 @@ const Footer = () => {
                         </h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">UI/UX Design</Link>
+                                <Link to={`/ui-ux`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">UI/UX Design</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">On Page SEO</Link>
+                                <Link to={`/on-page-seo`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">On Page SEO</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">WordPress</Link>
+                                <Link to={`/wordpress`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">WordPress</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">MERN Stack</Link>
+                                <Link to={`/mern`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">MERN Stack</Link>
                             </li>
                             <li>
-                                <Link to={`/`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Mobile Application</Link>
+                                <Link to={`/mobile-app`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Mobile Application</Link>
                             </li>
                         </nav>
                     </div>
@@ -81,7 +81,7 @@ const Footer = () => {
                 </div>
             </div>
            <hr className={`w-[92%] mx-auto`}/>
-            <div className="bg-[#191A1C] bg-opacity-75">
+            <div className="bg-basic bg-opacity-75">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                     <p className="text-gray-400 text-sm text-center sm:text-left">© 2023 Solecodes —
                         <a  href = "mailto:contactsolcodes@gmail.com" rel="noopener noreferrer" className="text-gray-500 ml-1"

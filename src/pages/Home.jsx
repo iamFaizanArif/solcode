@@ -2,9 +2,7 @@
 import React from 'react';
 import {Hero} from "../component/index.js";
 import Slider from "../component/Swiper/Slider.jsx";
-import Pricing from "../component/Pricing/Pricing.jsx";
 import About from "../component/About.jsx";
-import Banner from "../component/Banner.jsx";
 import {motion} from "framer-motion";
 
 const Home = () => {

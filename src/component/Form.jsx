@@ -131,7 +131,7 @@ const Form = () => {
                             </div>
                             {/*Button */}
                             <button type="submit"
-                                    className={`my-[32px] py-[16px] px-[24px] bg-black rounded-md text-white w-full`}>
+                                    className={`my-[32px] py-[16px] px-[24px] bg-basic rounded-md text-white w-full`}>
                                 Get Started
                             </button>
                         </form>
