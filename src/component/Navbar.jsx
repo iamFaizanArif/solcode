@@ -13,17 +13,20 @@ import {GiBurningMeteor} from 'react-icons/gi';
 let Links=[
     {name:"Home",path:"/"},
     {name:"About Us",path:"/about-us"},
-    {name:"Projects",path:"/project"},
+    {name:"Projects",path:"/projects"},
     {name:"Services",path:"/services"},
     {name:"Contact Us",path:"/contact-us"},
 ];
 
 // We are going to create new functional component, which accept few props
 const NavbarItem = ({title,link, classProps}) => {
+    const [toggleMenu, setToggleMenu] = useState(false);
     // It will return a li
     return (
         <li className={`mx-4 cursor-pointer ${classProps}`}>
-            <Link to={link}>{title}</Link>
+            <Link to={link} onClick={() => {
+                setToggleMenu(false)
+            }}>{title}</Link>
         </li>
     )
 }

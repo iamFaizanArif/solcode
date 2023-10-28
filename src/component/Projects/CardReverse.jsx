@@ -3,14 +3,18 @@ import {AnimationOnScroll} from "react-animation-on-scroll";
 import Button from "../Button.jsx";
 import {app, web} from "../../assets/index.js";
 
-const Card = ({title, details, img, webTitle, webStyle, appStyle, appTitle,webClass,appClass,webLink,appLink}) => {
+const CardReverse = ({title, details, img, webTitle, webStyle, appStyle, appTitle,webClass,appClass,webLink,appLink}) => {
     return (
-        <AnimationOnScroll animateIn="animate__fadeInLeft">
+        <AnimationOnScroll animateIn="animate__fadeInRight">
             <section className=" body-font text-center">
                 <div
-                    className="container mx-auto flex px-5 pb-12 md:pb-24 md:flex-row flex-col justify-center items-center">
+                    className="container mx-auto flex px-5 pb-12 md:pb-24 md:flex-row flex-col-reverse justify-center items-center">
+                    <div className="w-[85%] md:w-[49%] flex justify-center md:justify-start">
+                        <img className="object-cover object-center rounded w-[75%] h-auto" alt="hero"
+                             src={img}/>
+                    </div>
                     <div
-                        className="lg:flex-grow md:w-1/2 lg:pr-8 md:pr-6 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-6 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <h1 className={`text-6xl font-bold title-font sm:text-4xl mb-4 animate-fade-right`}>{title}</h1>
                         <p className="mb-8 text-xl leading-relaxed">{details}</p>
                         <div className={webStyle}>
@@ -41,10 +45,7 @@ const Card = ({title, details, img, webTitle, webStyle, appStyle, appTitle,webCl
 
                     </div>
 
-                    <div className="w-[85%] md:w-[49%] flex justify-center">
-                        <img className="object-cover object-center rounded w-[75%] h-auto" alt="hero"
-                             src={img}/>
-                    </div>
+
 
                 </div>
             </section>
@@ -52,4 +53,4 @@ const Card = ({title, details, img, webTitle, webStyle, appStyle, appTitle,webCl
     );
 };
 
-export default Card;
+export default CardReverse;
