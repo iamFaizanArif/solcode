@@ -82,7 +82,7 @@ const Projects = () => {
                         development and design to marketing strategies and content creation, each project reflects our
                         passion and precision. Our projects encompass a wide array of industries and services,
                         demonstrating our versatility and ability to meet the unique needs of our clients.</p>
-                    <div className={`container py-24 mt-12 mx-auto w-full`}>
+                    <div className={`container py-24 pt-12 md:pt-24 mt-12 mx-auto w-full`}>
                         <Card
                             title={`DK Bookings`}
                             details={`DKbookings is the app you have been looking for and the app that you didn’t know you would need! You will now be able to find and book your ideal service providers with ease and be able to communicate with your service provider without stepping outside of the app platform.

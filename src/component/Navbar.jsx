@@ -35,7 +35,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <header className="bg-basic text-white body-font drop-shadow-lg w-full fixed z-50">
-            <div className="container mx-auto flex flex-wrap px-5 md:flex-row items-left items-center">
+            <div className="container mx-auto flex flex-wrap px-5 md:flex-row items-left items-center h-20">
 
                 <Link to={`/`} className={`contents`}>
                     <img src={logo} alt={`logo`} className={`w-1/5 md:w-[6%] inline`}/>

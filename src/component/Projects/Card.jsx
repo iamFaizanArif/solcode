@@ -11,8 +11,8 @@ const Card = ({title, details, img, webTitle, webStyle, appStyle, appTitle,webCl
                     className="container mx-auto flex px-5 pb-12 md:pb-24 md:flex-row flex-col justify-center items-center">
                     <div
                         className="lg:flex-grow md:w-1/2 lg:pr-8 md:pr-6 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 className={`text-6xl font-bold title-font sm:text-4xl mb-4 animate-fade-right`}>{title}</h1>
-                        <p className="mb-8 text-xl leading-relaxed">{details}</p>
+                        <h1 className={`text-4xl md:text-6xl font-bold title-font sm:text-4xl mb-4 animate-fade-right`}>{title}</h1>
+                        <p className="mb-8 text-lg md:text-xl leading-relaxed">{details}</p>
                         <div className={webStyle}>
                             <div className={`flex items-center`}>
                                 <img src={web} className={`py-4 object-cover object-center rounded w-[12%] h-auto`}
