@@ -45,17 +45,17 @@ const Slider = () => {
                                     <Card title="On-Page SEO"
                                           desc="Stand out from the digital crowd with our expert on-page SEO services. We optimize your website to enhance its visibility on search engines, driving organic traffic and increasing your online reach. Our strategies are tailored to your industry, ensuring your content ranks high and connects with your target audience"
                                           img={service1}
-                                          link={"/on-page-seo"}
+                                          link={"/service/on-page-seo"}
                                     />
                                     <Card title="WordPress"
                                           desc="Your website is often the first interaction customers have with your brand. Our WordPress experts create visually stunning and highly functional websites that leave a lasting impression. From responsive designs to seamless navigation, we craft websites that reflect your brand's uniqueness"
                                           img={service2}
-                                          link={"/on-page-wordpress"}
+                                          link={"/service/wordpress"}
                                     />
                                     <Card title="MERN Stack"
                                           desc="Experience the power of modern web development with our MERN stack expertise. Whether it's a dynamic web application or an interactive platform, our skilled developers leverage MongoDB, Express, React, and Node.js to create robust and scalable solutions that align with your business goals"
                                           img={service3}
-                                          link={"/mern"}
+                                          link={"/service/mern"}
                                     />
                                 </div>
                             </SwiperSlide>
@@ -64,18 +64,18 @@ const Slider = () => {
                                     <Card title="UI/UX Design"
                                           desc="A stunning user interface and seamless user experience are pivotal for your digital success. Our UI/UX designers craft visually appealing interfaces that prioritize user interactions. We believe in creating designs that not only captivate but also enhance user engagement, making your digital platforms a joy to use"
                                           img={service2}
-                                          link={"/ui-ux"}
+                                          link={"/service/ui-ux"}
                                     />
                                     <Card title="Mobile App"
                                           desc="The world is at your customers' fingertips, and we help you reach them with our mobile app development services. Our talented team designs and develops apps for both Android and iOS platforms, ensuring your brand is accessible to users wherever they go"
                                           img={service3}
-                                          link={"/mobile-app"}
+                                          link={"/service/mobile-app"}
                                     />
 
                                     <Card title="On-Page SEO"
                                           desc="Stand out from the digital crowd with our expert on-page SEO services. We optimize your website to enhance its visibility on search engines, driving organic traffic and increasing your online reach. Our strategies are tailored to your industry, ensuring your content ranks high and connects with your target audience"
                                           img={service1}
-                                          link={"/on-page-seo"}
+                                          link={"/service/on-page-seo"}
                                     />
                                 </div>
                             </SwiperSlide>

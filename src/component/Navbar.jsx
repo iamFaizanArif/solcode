@@ -38,8 +38,8 @@ const Navbar = () => {
             <div className="container mx-auto flex flex-wrap px-5 md:flex-row items-left items-center h-20">
 
                 <Link to={`/`} className={`contents`}>
-                    <img src={logo} alt={`logo`} className={`w-1/5 md:w-[6%] inline`}/>
-                    <img src={logo2} alt={`logo`} className={`w-[12%] hidden md:inline`}/>
+                    <img src={logo} alt={`logo`} className={`w-1/5 md:w-[4%] inline`}/>
+                    <img src={logo2} alt={`logo`} className={`w-[11%] hidden md:inline`}/>
                 </Link>
 
                 <nav className={`ml-auto flex z-50`}>

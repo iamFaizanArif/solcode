@@ -35,11 +35,11 @@ const App = () => {
                         <Route path={`/contact-us`} element={<ContactUs/>}/>
                         <Route path={`/services`} element={<Services/>}/>
                         <Route path={`/projects`} element={<Projects/>}/>
-                        <Route path={`/on-page-seo`} element={<OnPage/>}/>
-                        <Route path={`/wordpress`} element={<WordPress/>}/>
-                        <Route path={`/mern`} element={<MERN/>}/>
-                        <Route path={`/mobile-app`} element={<MobileApp/>}/>
-                        <Route path={`/ui-ux`} element={<UIUX/>}/>
+                        <Route path={`/service/on-page-seo`} element={<OnPage/>}/>
+                        <Route path={`/service/wordpress`} element={<WordPress/>}/>
+                        <Route path={`/service/mern`} element={<MERN/>}/>
+                        <Route path={`/service/mobile-app`} element={<MobileApp/>}/>
+                        <Route path={`/service/ui-ux`} element={<UIUX/>}/>
                     </Routes>
                 </AnimatePresence>
                 <Footer/>

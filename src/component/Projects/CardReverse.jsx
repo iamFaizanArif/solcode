@@ -15,20 +15,20 @@ const CardReverse = ({title, details, img, webTitle, webStyle, appStyle, appTitl
                     </div>
                     <div
                         className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-6 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 className={`text-4xl md:text-6xl font-bold title-font sm:text-4xl mb-4 animate-fade-right`}>{title}</h1>
-                        <p className="mb-8 text-lg md:text-xl leading-relaxed">{details}</p>
+                        <h1 className={`text-4xl font-bold title-font sm:text-4xl mb-4 animate-fade-right`}>{title}</h1>
+                        <p className="mb-8 text-lg leading-relaxed">{details}</p>
                         <div className={webStyle}>
                             <div className={`flex items-center`}>
                                 <img src={web} className={`py-4 object-cover object-center rounded w-[12%] h-auto`}
                                      alt={`web-icon`}/>
-                                <h1 className={`text-2xl md:text-3xl font-black ml-6`}>{webTitle}</h1>
+                                <h1 className={`text-2xl font-black ml-6`}>{webTitle}</h1>
                             </div>
                         </div>
                         <div className={appStyle}>
                             <div className={`flex items-center`}>
                                 <img src={app} className={`py-4 object-cover object-center rounded w-[12%] h-auto`}
                                      alt={`web-icon`}/>
-                                <h1 className={`text-2xl md:text-3xl font-black ml-6`}>{appTitle}</h1>
+                                <h1 className={`text-2xl font-black ml-6`}>{appTitle}</h1>
                             </div>
                         </div>
                         <div className={`flex space-x-3 md:space-x-6`}>

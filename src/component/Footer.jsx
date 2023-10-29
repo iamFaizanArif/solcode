@@ -12,12 +12,12 @@ const Footer = () => {
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                         {/*<TbComet size={33}/>*/}
-                        <img src={logo} alt={`logo`} className={`w-[30%]`}/>
-                        <img src={logo2} alt={`logo`} className={`w-[60%]`}/>
+                        <img src={logo} alt={`logo`} className={`w-[25%]`}/>
+                        <img src={logo2} alt={`logo`} className={`w-[65%]`}/>
 
                         {/*<span className="ml-3 text-xl">Solecodes</span>*/}
                     </a>
-                    <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+                    <p className="mt-2 text-sm text-gray-500">Empowering Your Digital Presence</p>
                 </div>
                 <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                     <div className="lg:w-1/3 md:w-1/2 w-full px-4">
@@ -25,19 +25,19 @@ const Footer = () => {
                         </h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <Link to={`/ui-ux`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">UI/UX Design</Link>
+                                <Link to={`/service/ui-ux`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">UI/UX Design</Link>
                             </li>
                             <li>
-                                <Link to={`/on-page-seo`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">On Page SEO</Link>
+                                <Link to={`/service/on-page-seo`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">On Page SEO</Link>
                             </li>
                             <li>
-                                <Link to={`/wordpress`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">WordPress</Link>
+                                <Link to={`/service/wordpress`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">WordPress</Link>
                             </li>
                             <li>
-                                <Link to={`/mern`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">MERN Stack</Link>
+                                <Link to={`/service/mern`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">MERN Stack</Link>
                             </li>
                             <li>
-                                <Link to={`/mobile-app`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Mobile Application</Link>
+                                <Link to={`/service/mobile-app`} className="text-gray-400 hover:text-secondary leading-relaxed md:leading-loose">Mobile Application</Link>
                             </li>
                         </nav>
                     </div>
