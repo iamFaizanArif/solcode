@@ -4,7 +4,7 @@ import Breadcrumb from "../component/Breadcrumb.jsx";
 import ServiceBanner from "../component/ServiceBanner.jsx";
 import ServiceDetails from "../component/ServiceDetails.jsx";
 import ServiceDetailsReverse from "../component/ServiceDetailsReverse.jsx";
-
+import {sd1, sd2,sd3,sd4,sd5} from "../assets/index.js";
 const MobileApp = () => {
     return (
         <motion.div initial={{width: 0}}
@@ -25,7 +25,7 @@ const MobileApp = () => {
 Our process delves deep into your vision, exploring your aspirations, and meticulously outlining the architecture, layout, and features of your app. We leave no stone unturned, ensuring that every element within the app seamlessly aligns with your overarching objectives. Our ultimate goal is to create an app that not only meets your vision but also caters to the unique needs of your audience.
 The 'Brainstorming & Wireframe' phase isn't just about collecting ideas; it's about turning those ideas into a concrete plan. We create a roadmap for your app's development journey, setting the course for an app that's not just successful but extraordinary. From the core structure to the intricate details, we pay meticulous attention to every facet, promising an app that's not just functional but exceptional.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd1}
                 />
                 <ServiceDetailsReverse
                     title={`Design`}
@@ -34,7 +34,7 @@ The 'Brainstorming & Wireframe' phase isn't just about collecting ideas; it's ab
 We understand that design isn't merely about aesthetics; it's the gateway to creating a mobile environment that truly resonates with your audience. From the harmonious selection of color schemes to the strategic choices in user interface design, we embark on a comprehensive creative journey to ensure that every aspect of your app design delights your users.
 In the 'Design' phase, we do more than create visually pleasing elements; we build the bridge that connects your vision with your users. Every pixel, every color, and every interaction are carefully considered to craft a mobile environment that not only appeals to the senses but also guides your users effortlessly. It's not just about looks; it's about creating a visual experience that's both engaging and intuitive.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd2}
                 />
                 <ServiceDetails
                     title={`Development`}
@@ -43,7 +43,7 @@ In the 'Design' phase, we do more than create visually pleasing elements; we bui
 Our experienced development team takes the reins, working meticulously to craft a mobile app that excels on all fronts. We understand that a mobile app should be more than just aesthetically appealing; it should also be technically robust. As such, we lay the foundation for an app that delivers a responsive and engaging user experience.
 In the 'Development' phase, every line of code we write is a testament to our commitment to engineering excellence. We don't just create an app; we engineer it to perfection. Every feature, every interaction, and every detail are carefully sculpted, promising not just a beautiful app, but a high-performance and user-centric digital masterpiece. We don't compromise on either aesthetics or functionality; we deliver both.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd3}
                 />
                 <ServiceDetailsReverse
                     title={`Testing`}
@@ -52,7 +52,7 @@ In the 'Development' phase, every line of code we write is a testament to our co
 Our dedicated team of testing experts meticulously scrutinizes every feature and function within your mobile app. We leave no stone unturned, systematically examining each element to identify and resolve any issues that may arise. The goal is singular: to guarantee a mobile app that offers a seamless, reliable, and unforgettable user experience.
 In the 'Testing' phase, we don't merely check for functionality; we engineer for perfection. Every interaction, every user scenario, and every corner of your app is thoroughly inspected to create a digital masterpiece that doesn't just work; it excels. Quality is not just a goal; it's our unwavering commitment, ensuring your users experience nothing but excellence.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd4}
                 />
                 <ServiceDetails
                     title={`Deployment`}
@@ -61,7 +61,7 @@ In the 'Testing' phase, we don't merely check for functionality; we engineer for
 In this critical phase, we ensure that your mobile app is not just ready to enter the digital stage but is primed to shine. We meticulously fine-tune every aspect, from performance optimization to SEO excellence. The goal is to make certain that your app doesn't merely exist in the digital realm but thrives in it.
 However, our dedication doesn't end with the launch. We provide post-launch support and maintenance services that are thoughtfully designed to ensure your mobile app continues to run smoothly and evolve. Our commitment is to secure a lasting impact in the ever-evolving digital landscape, making sure that your app leaves a mark and continues to resonate with your audience.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd5}
                 />
             </div>
         </motion.div>

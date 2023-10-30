@@ -16,9 +16,8 @@ const AboutUs = () => {
             {/*pt-[74px]  md:pt-0*/}
             <Breadcrumb title={'About Us'} from={"/"} to={"/about-us"}/>
             <div className="container py-24 mt-24 mx-auto w-full xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-full">
-                <AnimationOnScroll animateIn="animate__fadeInRight">
                     <section className=" body-font text-center">
-                        <div className="container mx-auto flex px-5 pb-32 md:flex-row flex-col items-center">
+                        <div className="container mx-auto flex px-5 pb-32 md:flex-row flex-col-reverse items-center">
                             <div className="2xl:max-w-xl lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
                                 <img className="object-cover object-center rounded w-full h-auto" alt="hero"
                                      src={aboutBanner2}/>
@@ -48,7 +47,6 @@ const AboutUs = () => {
 
                         </div>
                     </section>
-                </AnimationOnScroll>
                 <About/>
             </div>
         </motion.div>

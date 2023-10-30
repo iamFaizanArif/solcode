@@ -8,7 +8,7 @@ import ServiceDetails from "../component/ServiceDetails.jsx";
 import ServiceDetailsReverse from "../component/ServiceDetailsReverse.jsx";
 import Card from "../component/Swiper/Card.jsx";
 import ServiceBanner from "../component/ServiceBanner.jsx";
-
+import {sd1, sd2,sd3,sd4,sd5} from "../assets/index.js";
 const WordPress = () => {
     return (
         <motion.div initial={{width: 0}}
@@ -29,7 +29,7 @@ const WordPress = () => {
 Our seasoned team delves deep into understanding your unique aspirations and requirements. We meticulously outline the structure, layout, and features that your website or platform will embody. Every detail is scrutinized to ensure that it aligns harmoniously with your objectives and caters precisely to the needs of your target audience.
 In this phase, we don't just collect ideas; we mold them into a well-defined plan. We create a blueprint that not only guides our development efforts but also serves as the architectural foundation for your digital masterpiece. This initial brainstorming and wireframing stage is the cornerstone of our WordPress development process, ensuring that your project starts on the right path and sets the course for a successful journey.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd1}
                 />
                 <ServiceDetailsReverse
                     title={`Design`}
@@ -39,7 +39,7 @@ In this pivotal phase, we meticulously craft designs that are a true reflection 
 We understand that design isn't just about appearances; it's about creating an immersive user experience. Our commitment is to ensure that every aspect of the design speaks to your audience, engaging them and guiding them effortlessly through your digital domain. Your brand's identity is our canvas, and the 'Design' phase is where we transform it into a captivating masterpiece that leaves a lasting impression.
 
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd2}
                 />
                 <ServiceDetails
                     title={`Development`}
@@ -50,7 +50,7 @@ In this 'Development' phase, your project is transformed from concept to a dynam
 
 
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd3}
                 />
                 <ServiceDetailsReverse
                     title={`Testing`}
@@ -60,7 +60,7 @@ Every feature, every function, and every interaction are subjected to intense sc
 We understand that in the digital landscape, perfection is not just an aspiration; it's the expectation. It's our commitment to guarantee that your visitors experience nothing short of excellence. With testing as our guide, we fine-tune your project, leaving it polished and ready to make its mark on the web. When your website finally goes live, it's not just another presence; it's a testament to our dedication to quality.
 
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd4}
                 />
                 <ServiceDetails
                     title={`Deployment`}
@@ -71,7 +71,7 @@ But our commitment doesn't end at deployment. We provide post-launch support and
 Our WordPress development service represents a holistic approach to elevating your digital presence. It's a testament to our dedication to creating websites and platforms that are not just visually captivating, but also technically robust and inherently SEO-friendly. Your online success is our ultimate goal, and we're with you every step of the way.
 
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={sd5}
                 />
             </div>
         </motion.div>

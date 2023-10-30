@@ -4,7 +4,7 @@ import ServiceBanner from "../component/ServiceBanner.jsx";
 import ServiceDetails from "../component/ServiceDetails.jsx";
 import ServiceDetailsReverse from "../component/ServiceDetailsReverse.jsx";
 import {motion} from "framer-motion";
-
+import {ui1, ui2,ui3,ui4,ui5} from "../assets/index.js";
 const UIUX = () => {
     return (
         <motion.div initial={{width: 0}}
@@ -28,7 +28,7 @@ In a rapidly evolving digital landscape, we are your trusted partners in the pur
 This wealth of information serves as the compass that guides every subsequent step. It's not merely data; it's the key that strategically aligns every design element with your overarching goals. In 'Research and Discovery,' we don't merely gather information; we engineer the roadmap for an immersive and user-centric digital experience. Every interaction, every visual element, and every user flow is meticulously calibrated to ensure that your project is not just designed but masterfully orchestrated.
 
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={ui1}
                 />
                 <ServiceDetailsReverse
                     title={`Wireframing and Prototyping`}
@@ -36,7 +36,7 @@ This wealth of information serves as the compass that guides every subsequent st
                     details={`In the critical 'Wireframing and Prototyping' phase, we embark on the journey of translating insights into a tangible design plan. This is where the abstract becomes tangible, where ideas take form. We create intricate wireframes and interactive prototypes, each one serving as a visual blueprint of the user interface, offering a glimpse into the future.
 These blueprints are not just static sketches; they're dynamic representations that breathe life into the design. They become our canvas for refining the layout, navigation, and functionality of your project. Every interaction is scrutinized, every pixel carefully placed, to ensure an intuitive and user-friendly experience. This phase is where user journeys are meticulously charted, and where design truly takes shape.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={ui2}
                 />
                 <ServiceDetails
                     title={`Visual Design`}
@@ -45,7 +45,7 @@ These blueprints are not just static sketches; they're dynamic representations t
 We delve deep into the intricacies of design, with a focused lens on elements like color schemes, typography, and graphical assets. Each pixel is thoughtfully placed, every hue and shade carefully selected. The objective is clear: to create a design that doesn't just captivate the eye but also encapsulates your brand's identity, ensuring an immersive and memorable user experience.
 The 'Visual Design' phase is where creativity meets strategy. It's not just about aesthetics; it's about telling a visual story that resonates with your audience. Every visual component is a brushstroke that adds depth to your digital canvas, crafting an environment that goes beyond the visual and transcends into the immersive.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={ui3}
                 />
                 <ServiceDetailsReverse
                     title={`User Testing and Feedback`}
@@ -55,7 +55,7 @@ This is not a one-time endeavor; it's a continuous and iterative process. By col
 'User Testing and Feedback' is where design meets reality. It's not just about what we envision; it's about how real users interact with and perceive the design. Every refinement is a step closer to an end product that resonates deeply with your audience, delivering an experience that's truly user-centric.
 
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={ui4}
                 />
                 <ServiceDetails
                     title={`Finalization and Handoff`}
@@ -64,7 +64,7 @@ This is not a one-time endeavor; it's a continuous and iterative process. By col
 Our goal is singular: to ensure a smooth and harmonious handoff. It's not just about creating a beautiful design; it's about ensuring that this design translates seamlessly into a functional and user-centric digital product. Every pixel, every interaction, and every detail are carefully scrutinized to guarantee that the transition from design to development is a seamless one.
 In the 'Finalization and Handoff' phase, we bridge the gap between design and reality. We don't just deliver a design; we deliver a vision that's ready to thrive in the digital landscape. It's about ensuring that the user-centric journey we've crafted is not just preserved but elevated in the development process, leaving an indelible mark on your audience.
 `}
-                    img={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60`}
+                    img={ui5}
                 />
             </div>
         </motion.div>

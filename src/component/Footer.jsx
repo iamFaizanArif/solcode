@@ -12,8 +12,8 @@ const Footer = () => {
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                         {/*<TbComet size={33}/>*/}
-                        <img src={logo} alt={`logo`} className={`w-[25%]`}/>
-                        <img src={logo2} alt={`logo`} className={`w-[65%]`}/>
+                        <img src={logo} alt={`logo`} className={`w-[30%]`}/>
+                        <img src={logo2} alt={`logo`} className={`w-[70%]`}/>
 
                         {/*<span className="ml-3 text-xl">Solecodes</span>*/}
                     </a>

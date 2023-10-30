@@ -20,13 +20,10 @@ let Links=[
 
 // We are going to create new functional component, which accept few props
 const NavbarItem = ({title,link, classProps}) => {
-    const [toggleMenu, setToggleMenu] = useState(false);
     // It will return a li
     return (
         <li className={`mx-4 cursor-pointer ${classProps}`}>
-            <Link to={link} onClick={() => {
-                setToggleMenu(false)
-            }}>{title}</Link>
+            <Link to={link}>{title}</Link>
         </li>
     )
 }
@@ -35,11 +32,11 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <header className="bg-basic text-white body-font drop-shadow-lg w-full fixed z-50">
-            <div className="container mx-auto flex flex-wrap px-5 md:flex-row items-left items-center h-20">
+            <div className="container mx-auto flex flex-wrap px-5 md:flex-row items-left items-center h-24">
 
                 <Link to={`/`} className={`contents`}>
-                    <img src={logo} alt={`logo`} className={`w-1/5 md:w-[4%] inline`}/>
-                    <img src={logo2} alt={`logo`} className={`w-[11%] hidden md:inline`}/>
+                    <img src={logo} alt={`logo`} className={`w-1/5 md:w-[6%] inline`}/>
+                    <img src={logo2} alt={`logo`} className={`w-[12%] hidden md:inline`}/>
                 </Link>
 
                 <nav className={`ml-auto flex z-50`}>
