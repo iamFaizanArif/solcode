@@ -13,7 +13,7 @@ export default {
         "secondary":"#18893E",
         "basic":"#191A1C",
         // "basic":"#000000",
-      }
+      },
     },
   },
   plugins: [

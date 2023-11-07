@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 // import {TbComet} from "react-icons/tb";
 import {logo, logo2} from "../assets/index.js";
 import {Link} from "react-router-dom";
@@ -29,10 +29,26 @@ const NavbarItem = ({title,link, classProps}) => {
 }
 
 const Navbar = () => {
+    // const [isSticky,setIsSticky]=useState();
+    // Sticky Menu Area
+    useEffect(() => {
+        window.addEventListener('scroll', isSticky);
+        return () => {
+            window.removeEventListener('scroll', isSticky);
+        };
+    });
+
+
+    /* Method that will fix header after a specific scrollable */
+    const isSticky = (e) => {
+        const header = document.querySelector('.header-section');
+        const scrollTop = window.scrollY;
+        scrollTop >= 150 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+    };
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
-        <header className="bg-basic text-white body-font drop-shadow-lg w-full fixed z-50">
-            <div className="container mx-auto flex flex-wrap px-5 md:flex-row items-left items-center h-24">
+        <header className={`header-section bg-basic text-white body-font drop-shadow-lg w-full z-50`} id="navbar">
+            <div className="container mx-auto flex flex-wrap px-5 md:flex-row items-left items-center h-22">
 
                 <Link to={`/`} className={`contents`}>
                     <img src={logo} alt={`logo`} className={`w-1/5 md:w-[6%] inline`}/>

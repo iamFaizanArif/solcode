@@ -6,7 +6,7 @@ import {contactUsHero} from "../assets/index.js";
 const Breadcrumb = ({title,from,to}) => {
     return (
         <div style={{'--image-url': `url(${contactUsHero})`}}
-             className='relative bg-cover bg-center bg-[image:var(--image-url)] h-[480px] top-[70px]'>
+             className='relative bg-cover bg-center bg-[image:var(--image-url)] h-[480px] top-0'>
             <div
                 className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden opacity-90"
                 style={{backgroundColor: "#191A1C",}}></div>
